@@ -18,3 +18,14 @@ public class CharacterPattern {
         sc.close();
     }    
 }
+
+
+/*
+Output:
+
+  A
+  BC
+  DEF
+  GHIJ
+
+ */

@@ -16,3 +16,15 @@ public class HalfPyramid {
         sc.close();
     }
 }
+
+
+/*
+Output:
+
+1
+12
+123
+1234
+12345
+
+ */

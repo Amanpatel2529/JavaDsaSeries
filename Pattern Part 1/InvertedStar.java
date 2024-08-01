@@ -16,3 +16,12 @@ public class InvertedStar{
         sc.close();
     }
 }
+
+/*
+Output:
+
+  ****
+  ***
+  **
+  *
+ */

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MaxSumSubarray {
+public class MaxSumSubarray {  //brute force approach
 
     public static void maxSubarraySum(int numbers[]){
         int currSum = 0;

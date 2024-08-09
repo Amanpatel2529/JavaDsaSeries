@@ -36,6 +36,5 @@ public class MaxSumSubarray {  //brute force approach
     }    
 }
 
-//time complexity = O(n^3)  //bad complexity but this is the basic approach we can go for
-//brut force method
-//the optimal and best complexity is when we use prefix sum approach
+//time complexity = O(n^2)  //optimal and best complexity 
+//prefix subarray sum method

@@ -5,7 +5,7 @@ public class MaxSumSubarray_Kadane_sAlgo {
         int maxSum = Integer.MIN_VALUE; //-infinity start value
 
         for(int i=0; i<numbers.length; i++){
-            currSum +=numbers[i];
+            currSum +=numbers[i]; 
             if(currSum<0){
                 currSum =0;   //ignore negative values
             }
@@ -20,5 +20,6 @@ public class MaxSumSubarray_Kadane_sAlgo {
 }
 
 //code flow
-// currSum 0|0|4|3|1|2|7|4
+// currSum 0|0|4|3|1|2|7|4    
 // maxSum  0|0|4|4|4|4|7|7
+// zeros are placed on spot of negative numbers

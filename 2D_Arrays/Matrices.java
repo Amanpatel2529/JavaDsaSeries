@@ -39,5 +39,7 @@ public class Matrices{
 
         //search function call
         search(matrix, 5);
+
+        sc.close();
     }
 }

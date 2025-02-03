@@ -1,9 +1,9 @@
 import java.util.*;
 
-public class getITHbit {
+public class GetITHbit {
     public static int getIthBit(int n, int i){
         int bitMask = 1 << i;
-        if((n& bitMask) ==0){
+        if((n & bitMask) ==0){
             return 0;
         }else{
             return 1;
@@ -18,4 +18,4 @@ public class getITHbit {
 /*
   n=10, i=2
   10 in binary is written as  001010
- */
+*/
